@@ -1,0 +1,31 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# IDE files
+.idea/
+.vscode/
+.settings/
+.project
+.classpath
+
+# Frontend dependencies & builds
+node_modules/
+dist/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+application-local.properties
+application-local.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
